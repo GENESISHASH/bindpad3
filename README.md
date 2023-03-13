@@ -1,8 +1,11 @@
-# @todo:
-[x] - export function (serialize, encodeb64)
-[ ] - export frame ui
-[ ] - import function (decode b64, deserialize, save)
-[ ] - import frame ui
+# V3 WOTLK update
+- Allows for import/export of profiles
+- Aesthetic tweaks
+- Remove localization because I'm not friendly
+
+### How it looks
+
+<img src="https://raw.githubusercontent.com/GENESISHASH/bindpad3/master/readme.png">
 
 ---
 
