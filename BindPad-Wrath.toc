@@ -1,0 +1,25 @@
+## Interface: 30401
+## Title: BindPad 3 (Lodash)
+## Version: 3.0
+## Author: Lodash-Faerlina, Lodash-Benediction, taky@taky.com (original: Tageshi)
+## Notes: Modified version of BindPad that allows for import/export functionality
+## SavedVariables: BindPadVars
+
+Libs\LibBase64-1.0\LibBase64-1.0.lua
+Libs\LibParse\LibParse.lua
+Libs\LibStub\LibStub.lua
+Libs\LibDeflate\LibDeflate.lua
+Libs\LibSerialize\LibSerialize.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceEvent-3.0\AceEvent-3.0.xml
+Libs\AceDB-3.0\AceDB-3.0.xml 
+Libs\AceDBOptions-3.0\AceDBOptions-3.0.xml
+Libs\AceConsole-3.0\AceConsole-3.0.xml
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.xml
+Libs\AceSerializer-3.0\AceSerializer-3.0.xml
+Libs\Serpent\Serpent.lua
+Libs\LibIconPath\LibIconPath.lua
+
+BindPad-Wrath.xml
