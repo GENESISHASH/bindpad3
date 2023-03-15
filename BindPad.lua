@@ -17,7 +17,7 @@ local Base64 = LibStub('LibBase64-1.0')
 local AceGUI = LibStub("AceGUI-3.0")
 local Serpent = LibStub("Serpent")
 
-DEFAULT_CHAT_FRAME:AddMessage("|cffBA55D3@BindPad 3 WOTLK (Profiles)|r by Lodash loaded", 0.8, 0.6, 1, 3)
+DEFAULT_CHAT_FRAME:AddMessage("|cffBA55D3@loaded bindpad3|r wotlk profiles by lodash", 0.8, 0.6, 1, 3)
 
 local function serialize(data,header)
     local data = Serpent.fns.dump(data,header or nil)
