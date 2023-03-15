@@ -5,8 +5,8 @@
 ## Notes: BindPad - Keybinding UI for Items, Spells and Macros. Drag anything into BindPad's slot and click it to bind a key.
 ## SavedVariables: BindPadVars
 
-Libs\LibBase64-1.0\LibBase64-1.0.lua
 Libs\LibStub\LibStub.lua
+Libs\LibBase64-1.0\LibBase64-1.0.lua
 Libs\Serpent\Serpent.lua
 Libs\LibIconPath\LibIconPath.lua
 

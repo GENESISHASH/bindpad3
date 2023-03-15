@@ -5,9 +5,9 @@
 ## Notes: BindPad that allows for profile import and export functionality
 ## SavedVariables: BindPadVars
 
+Libs\LibStub\LibStub.lua
 Libs\LibBase64-1.0\LibBase64-1.0.lua
 Libs\LibParse\LibParse.lua
-Libs\LibStub\LibStub.lua
 Libs\LibDeflate\LibDeflate.lua
 Libs\LibSerialize\LibSerialize.lua
 Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml

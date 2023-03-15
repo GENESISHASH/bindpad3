@@ -1,14 +1,14 @@
 .PHONY: all clean
 
-all: build.zip
+all: BindPad.zip
 
-build.zip:
-	-rm -f build.zip
+BindPad.zip:
+	-rm -f BindPad.zip
 	mkdir -p BindPad
-	rsync -av --exclude='.*' --exclude='BindPad' --exclude='build.zip' --exclude='Makefile' . BindPad
-	zip -r build.zip BindPad
+	rsync -av --exclude='.*' --exclude='BindPad' --exclude='BindPad.zip' --exclude='Makefile' . BindPad
+	zip -r BindPad.zip BindPad
 	rm -rf BindPad
 
 clean:
-	-rm -f build.zip
+	-rm -f BindPad.zip
 
