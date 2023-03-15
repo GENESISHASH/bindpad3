@@ -3,6 +3,7 @@
 BindPad Addon for World of Warcraft
 
 Author: Tageshi
+Additions: Profile import and export by Lodash
 
 --]]
 -- luacheck: globals BindPadFrame BindPadFrame_Toggle BindPad_SlashCmd BindPadFrame_OutputText BINDPAD_TEXT_USAGE BindPadSlot_OnReceiveDrag BindPadSlot_UpdateState
@@ -16,8 +17,7 @@ local Base64 = LibStub('LibBase64-1.0')
 local AceGUI = LibStub("AceGUI-3.0")
 local Serpent = LibStub("Serpent")
 
-DEFAULT_CHAT_FRAME:AddMessage("|cffBA55D3@bindpad 3 private|r w/ profile supported loaded", 0.8, 0.6, 1, 3)
-DEFAULT_CHAT_FRAME:AddMessage("|cffBA55D3@author|r lodash-bene, lodash-faer, taky@taky.com", 0.8, 0.6, 1, 3)
+DEFAULT_CHAT_FRAME:AddMessage("|cffBA55D3@BindPad 3 WOTLK (Profiles)|r by Lodash loaded", 0.8, 0.6, 1, 3)
 
 local function serialize(data,header)
     local data = Serpent.fns.dump(data,header or nil)

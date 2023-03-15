@@ -1,8 +1,8 @@
 ## Interface: 30401
-## Title: BindPad 3 (Lodash)
+## Title: BindPad 3 WOTLK (Profiles)
 ## Version: 3.0
-## Author: Lodash-Faerlina, Lodash-Benediction, taky@taky.com (original: Tageshi)
-## Notes: Modified version of BindPad that allows for import/export functionality
+## Author: Lodash <taky@taky.com> (originally: Tageshi)
+## Notes: BindPad that allows for profile import and export functionality
 ## SavedVariables: BindPadVars
 
 Libs\LibBase64-1.0\LibBase64-1.0.lua
