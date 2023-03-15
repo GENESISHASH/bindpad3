@@ -1,9 +1,9 @@
-# V3 WOTLK update
-- Allows for import/export of profiles
-- Aesthetic tweaks
-- Remove localization because I'm not friendly
+# bindpad 3 wotlk update
+- allows for import/export of profiles
+- aesthetic tweaks
+- remove localization because i'm not friendly
 
-### How it looks
+## how it looks
 
 <img src="https://raw.githubusercontent.com/GENESISHASH/bindpad3/master/readme.png">
 
